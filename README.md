@@ -89,7 +89,7 @@ When set to `true`, then deflated (compressed) bodies will be inflated; when
 Controls the maximum request body size. If this is a number, then the value
 specifies the number of bytes; if it is a string, the value is passed to the
 [bytes](https://www.npmjs.com/package/bytes) library for parsing. Defaults
-to `'100kb'`.
+to `'20mb'`.
 
 ##### reviver
 
@@ -144,7 +144,7 @@ When set to `true`, then deflated (compressed) bodies will be inflated; when
 Controls the maximum request body size. If this is a number, then the value
 specifies the number of bytes; if it is a string, the value is passed to the
 [bytes](https://www.npmjs.com/package/bytes) library for parsing. Defaults
-to `'100kb'`.
+to `'20mb'`.
 
 ##### type
 
@@ -194,7 +194,7 @@ When set to `true`, then deflated (compressed) bodies will be inflated; when
 Controls the maximum request body size. If this is a number, then the value
 specifies the number of bytes; if it is a string, the value is passed to the
 [bytes](https://www.npmjs.com/package/bytes) library for parsing. Defaults
-to `'100kb'`.
+to `'20mb'`.
 
 ##### type
 
@@ -253,7 +253,7 @@ When set to `true`, then deflated (compressed) bodies will be inflated; when
 Controls the maximum request body size. If this is a number, then the value
 specifies the number of bytes; if it is a string, the value is passed to the
 [bytes](https://www.npmjs.com/package/bytes) library for parsing. Defaults
-to `'100kb'`.
+to `'20mb'`.
 
 ##### parameterLimit
 

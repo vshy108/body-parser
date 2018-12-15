@@ -119,7 +119,7 @@ describe('bodyParser.text()', function () {
       var options = { limit: '1kb' }
       var server = createServer(options)
 
-      options.limit = '100kb'
+      options.limit = '20mb'
 
       request(server)
         .post('/')

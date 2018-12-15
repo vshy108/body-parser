@@ -101,7 +101,7 @@ describe('bodyParser.raw()', function () {
       var options = { limit: '1kb' }
       var server = createServer(options)
 
-      options.limit = '100kb'
+      options.limit = '20mb'
 
       var test = request(server).post('/')
       test.set('Content-Type', 'application/octet-stream')
